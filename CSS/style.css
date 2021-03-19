@@ -1,0 +1,193 @@
+/* import font from fonts.css file */ 
+@import url(./font.css);
+@import url(./partials/variables.css);
+
+
+
+
+
+.header-area .main-menu .navbar .navbar-brand{
+    padding: 0em 6em ;
+}
+
+.header-area .main-menu .navbar{
+ padding: 1em 5em;
+    
+}
+
+.header-area .main-menu .nav-item .nav-link{
+    font: normal  bold   20Spx/4px var(--ranchers);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header-area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* end navigation */ 
+/* start banner */ 
+ .site-banner  {
+
+    height: 750px;
+    width: 1650px;
+    background: url(../IMG/banner-img.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+
+}
+.site-banner .img-fluid{
+    
+    padding-top: 50px;
+    padding-left: 150px;
+    
+    
+}
+
+.site-banner .site-title{
+    
+    padding-top: 210px;
+    padding-left:50px;
+
+    
+
+}
+.site-title h3::after{
+    content: " ";
+    height: 3px;
+    width: 27vw;
+    background: #383838;
+    display: inline-block;
+    margin-left: 5%;
+   
+}
+.site-title h1{
+    font-size: 3vw;
+    padding-top: 8px;
+    padding-bottom:8px;
+}
+/* end banner */ 
+/* start about */
+.about-area{
+    height: 800px;
+    width: 1583px;
+
+  
+    
+}
+ .about-area .img-fluid {
+     
+    
+    height: 40vw;
+    padding-top: 100px;
+    padding-left: 100px;
+    
+    background-position: center ;
+
+}
+.about-area  h2{
+
+    font-size: 2vw;
+    font: normal bold 49px/ 60px var(--ranchers);
+    
+   
+    
+}
+.about-area  h2>span{
+    display: block;
+    font: normal bold 49px/ 60px var(--ranchers);
+    letter-spacing: 7px;
+}
+.w3-light-bleu{
+    width: 600px;
+    padding-right: 10px;
+}
+.w3-wide{
+
+    padding-left: 20px;
+    padding-top: 20px;
+    font: normal bold 19px/ 20px var(--roboto);
+
+}
+.about-area{
+    border-style: solid;
+    border-color: #383838;
+    border-width: 7px;
+}
+
+
+/* end about */
+/* Start  Educational-Background */
+.education-section{
+    height: 750px;
+    width: 1583px;
+    background: url(../IMG/background-Education.jpg) ;
+    background-repeat: no-repeat;
+  
+    background-position: center; 
+
+
+  
+    
+}
+.education-section .parcour-education{
+    padding-top: 100px;
+
+}
+.education-section  h2{
+    font: normal bold 29px/ 35px var(--ranchers);
+    color: #383838;
+    padding-left: 40px;
+    letter-spacing: 4px;
+    
+    
+    
+}
+.education-section .parcour-education h5{
+    padding-top: 45px;
+    
+}
+.education-section .education-image img{
+    padding-top: 140px;
+    padding-left: 150px;
+}
+.contact-area{
+    height: 750px;
+    width: 1583px;
+    border-style: solid;
+    border-color: #383838;
+    border-width: 7px;
+    
+
+}
+.contact-area h2{
+
+    padding-top: 200px;
+    font: normal bold 49px/ 60px var(--ranchers);
+    letter-spacing: 7px;
+}
+.contact-area .part-droite{
+  
+    padding-top: 70px;
+}
+.contact-area .part-gauche{
+    width: 500px;
+    
+    padding-top: 55px;
+    
+    padding-left: 100px;
+}
+/* end Educational-Background */

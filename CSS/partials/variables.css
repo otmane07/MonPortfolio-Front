@@ -1,0 +1,20 @@
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    height:2000px;
+    width: 1650PX;
+}
+
+
+/* CSS Variables */ 
+
+:root{
+    
+    --title-color: #01b786;
+   
+    --gradient-color: #1AF373;
+   
+    /* font family variables. */ 
+    --ranchers: 'Ranchers';
+    --roboto: 'Roboto', cursive;
+} 
